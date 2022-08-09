@@ -9,7 +9,7 @@
 For more details and specific examples of how to use {{ cookiecutter.project_slug}}, please see our [documentation](https://readthedocs.org/).
 
 ## Table of Contents
-- [{{ cookiecutter.project_slug }}](#{{ cookiecutter.project_slug.replace("_", "-") }})
+- [{{ cookiecutter.project_slug }}](#{{ cookiecutter.project_slug.replace("_", "-") if " " in cookiecutter.project_name else cookiecutter.project_name.replace("_", "")}})
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Install latest version with PyPI](#install-latest-version-with-pypi)
