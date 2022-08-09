@@ -1,0 +1,10 @@
+{
+    "author_name": "Kyle Hippe",
+    "author_email": "kyle.hippe@gmail.com",
+    "github_username": "KPHippe",
+    "project_name": "Python Package Boilerplate",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "This template contains all the boilerplate you need to create a Python package.",
+    "version": "0.1.0",
+    "python_version": "3.9"
+}
