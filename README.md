@@ -16,7 +16,7 @@ This is a repo to create a python package from a template
 1. For documentation, after installation, run `cd docs && make html`. This will populate the autodocumentation and allow you to see the docs files at `docs/build/html/index.html`
 
 ### Notes 
-* This does *not* initialize a git repo, you will have to do this yourself. 
+* This does *not* initialize a git repo, you will have to do this yourself, see [Github documentation](https://docs.github.com/en/get-started/quickstart/create-a-repo). *Note, do not add any files in the setup, this will create conflicts when pushing this codebase*.   
 
 # Things included 
 * `README.md`
