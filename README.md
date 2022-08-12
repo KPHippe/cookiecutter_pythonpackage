@@ -13,6 +13,7 @@ This is a repo to create a python package from a template
     pip install cookiecutter
     ```
 1. Run command `cookiecutter https://github.com/KPHippe/cookiecutter_pythonpackage.git` and follow setup prompt
+1. Install dependencies `pip install -r requirements/dev.txt && pip install -r requirements/docs.txt`
 1. For documentation, after installation, run `cd docs && make html`. This will populate the autodocumentation and allow you to see the docs files at `docs/build/html/index.html`
 
 ### Notes 
