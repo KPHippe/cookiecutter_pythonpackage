@@ -36,6 +36,7 @@ pip3 install --upgrade pip setuptools wheel
 pip3 install -r requirements/dev.txt
 pip3 install -r requirements/requirements.txt
 pip3 install -e .
+```
 
 ## Usage
 
