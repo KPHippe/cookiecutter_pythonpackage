@@ -20,13 +20,22 @@ For more details and specific examples of how to use {{ cookiecutter.project_slu
 
 ## Installation
 
-### Install latest version with PyPI 
+### Install latest version
 
 ```
 git clone https://github.com/{{cookiecutter.github_username}}/{{ cookiecutter.project_slug }}.git
 pip3 install -r requirements/requirements.txt
 pip3 install .
 ``` 
+
+### Installing in `develop` mode
+*Recomended to use conda virtual environment*
+```
+conda create -n [env_name] python={{cookiecutter.python_version}}
+pip3 install --upgrade pip setuptools wheel
+pip3 install -r requirements/dev.txt
+pip3 install -r requirements/requirements.txt
+pip3 install -e .
 
 ## Usage
 
